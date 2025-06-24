@@ -1,6 +1,31 @@
+## 4.0.0
+
+### Changed
+* Minimum version of Flutter (3.27.0 now)
+
+### Fixed
+* Icon color in actions [#512](https://github.com/letsar/flutter_slidable/issues/512)
+* Use withValues instead of withOpacity
+
+## 3.1.2
+
+### Fixed
+* Use Object.hash instead of hashValues.
+
+## 3.1.1
+
+### Fixed
+* An issue when having only one action pane set [#311](https://github.com/letsar/flutter_slidable/issues/311)
+* An issue with delete threshold [#230](https://github.com/letsar/flutter_slidable/issues/230) 
+
+## 3.1.0
+
+### Added
+* A way to provide a controller to the Slidable.
+  
 ## 3.0.1
 
-## Changed
+### Changed
 * Remove deprecation use of `primary` and `surface` parameters from OutlinedButton.styleFrom method. (See https://github.com/letsar/flutter_slidable/pull/443)
 
 ## 3.0.0
